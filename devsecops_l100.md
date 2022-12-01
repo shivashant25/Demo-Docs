@@ -6,11 +6,11 @@ Contoso Traders is one of the leading E-Commerce platforms with a wide range of 
 
 Contoso Traders has different departments like marketing, sales, accounts, HR, and IT. For internal communication, they are using Microsoft Teams and Outlook. In the Contoso Traders organisation, there are various functionalities with the Contoso Traders E-commerce platform like product approval, product price approval, Product price update approval etc. 
 
-## Lab Context
+## Context
 
-From this guide, you will explore the Contoso traders code base present in a GitHub repository which contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides. You will also explore about GitHub security features like Dependency graph and Dependabot. You will also explore Azure Defender for cloud and how it protects the rsoources
+You will explore the Contoso traders code base present in a GitHub repository which contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides. You will also explore about GitHub security features like Dependency graph and Dependabot. You will also explore Azure Defender for cloud and how it protects the rsoources
 
-## Hands-On Guide
+## Steps
 
 1. Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
 
@@ -118,6 +118,6 @@ From this guide, you will explore the Contoso traders code base present in a Git
    
 ## Summary
 
-From this guide, you have understood and got an overview about the Contoso traders GitHub repostory, GitHub security features, and Microsoft Defender for cloud.
+You have understood and got an overview about the Contoso traders GitHub repostory, GitHub security features, and Microsoft Defender for cloud.
 
     
