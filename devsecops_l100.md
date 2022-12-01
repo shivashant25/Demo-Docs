@@ -80,7 +80,7 @@ From this guide, you will explore the Contoso traders code base present in a Git
 
     - **Dependabot security updates** creates  alert for every vulnerable dependency identified in your full dependency graph. However, security updates are triggered only for dependencies that are specified in a manifest or lock file.
    
-    ![](media/ct16.png)
+   ![](media/ct16.png)
    
 1. Now, sign in to your Azure account, where the contoso traders infrastructure is hosted. If the infrastructure is not deployed, please follow the **Deployment setup** documentation.
 
