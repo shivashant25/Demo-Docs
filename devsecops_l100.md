@@ -8,7 +8,7 @@ Contoso Traders has different departments like marketing, sales, accounts, HR, a
 
 ## Lab Context
 
-From this guide, you will explore the Contoso traders code base present in a GitHub repository which contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides. You will also explore about 
+From this guide, you will explore the Contoso traders code base present in a GitHub repository which contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides. You will also explore about GitHub security features like Dependency graph and Dependabot. You will also explore Azure Defender for cloud and how it protects the rsoources
 
 ## Hands-On Guide
 
@@ -118,6 +118,6 @@ From this guide, you will explore the Contoso traders code base present in a Git
    
 ## Summary
 
-From this guide, you have understood and got an overview about the Contoso traders GitHub repostory and how you can implement the security between  
+From this guide, you have understood and got an overview about the Contoso traders GitHub repostory, GitHub security features, and Microsoft Defender for cloud.
 
     
