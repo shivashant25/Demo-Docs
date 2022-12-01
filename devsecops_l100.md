@@ -12,7 +12,7 @@ In this lab, you will explore the Contoso traders code base present in a GitHub 
 
 ## Hands-On Guide
 
-1.	Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. You’ll able to visualize multiple files and folders. 
+1.	Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
 
     ![](media/ct1.png)
 
