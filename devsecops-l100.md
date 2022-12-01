@@ -12,15 +12,15 @@ In this lab, you will explore the Contoso traders code base present in a GitHub 
 
 # Hands-On Guide
 
-1.	Open browser, using a new tab navigate to CloudLabs-AI/ContosoTraders (github.com) GitHub repository. You’ll able to visualize multiple files and folders. 
+1.	Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. You’ll able to visualize multiple files and folders. 
 
    ![](media/ct1.png)
 
-2.	Navigate to github/workflows folder, it contains the workflow files using which you can the deployment resources. Please find the details of the individual workflow.
+2.	Navigate to **github/workflows** folder, it contains the workflow files using which you can the deployment resources. Please find the details of the individual workflow.
 
    ![](media/ct2.png) 
 
-3.	Contoso-traders-infra-deployment.yml will deploy the infrastructure into Azure which includes a resource groups, resources, sets access policies to key vaults, and seeds the database from storage accounts to Azure SQL database.
+3.	**Contoso-traders-infra-deployment.yml** will deploy the infrastructure into Azure which includes a resource groups, resources, sets access policies to key vaults, and seeds the database from storage accounts to Azure SQL database.
 
    ![](media/ct3.png) 
 
