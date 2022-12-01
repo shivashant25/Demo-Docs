@@ -2,114 +2,123 @@
 
 ## Overview
 
-Contoso Traders are one of the leading E-Commerce platforms with wide range of electronic products like Desktops and Laptops, Mobile Phones, Gaming console accessories and Monitors. This includes a wide range of international brands like Microsoft Surface, XBOX, Samsung, ASUS, DELL etc. Contoso Traders Organization is using Microsoft 365 for their collaboration works internally.
+Contoso Traders is one of the leading E-Commerce platforms with a wide range of electronic products like desktops and laptops, mobile phones, gaming console accessories, and monitors. This includes a wide range of international brands like Microsoft Surface, XBOX, Samsung, ASUS, DELL etc. Contoso Traders Organization is using Microsoft 365 for their collaboration works internally.
 
-Contoso Traders has different departments like Marketing, Sales, Accounts, HR, IT. For internal communication they are using Microsoft Teams and Outlook. In Contoso Traders Organization, there are various functionalities with the Contoso Traders E-commerce platform like product approval, product price approval, Product price update approval etc. 
+Contoso Traders has different departments like marketing, sales, accounts, HR, and IT. For internal communication, they are using Microsoft Teams and Outlook. In the Contoso Traders organisation, there are various functionalities with the Contoso Traders E-commerce platform like product approval, product price approval, Product price update approval etc. 
 
 ## Lab Context
 
-In this lab, you will explore the Contoso traders code base present in a GitHub repository. The repository contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides.
+From this guide, you will explore the Contoso traders code base present in a GitHub repository which contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides. You will also explore about 
 
 ## Hands-On Guide
 
-1.	Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
+1. Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
 
-    ![](media/ct1.png)
+     ![](media/ct1.png)
 
-1.	Navigate to **github/workflows** folder, it contains the workflow files using which you can the deployment resources. Please find the details of the individual workflow.
+1. Navigate to **github/workflows** folder, it contains the workflow YAML files using which you can the deployment resources. Please see the individual workflows for more information.
 
-    ![](media/ct2.png) 
+     ![](media/ct2.png) 
 
-1.	**Contoso-traders-infra-deployment.yml** will deploy the infrastructure into Azure which includes a resource groups, resources, sets access policies to key vaults, and seeds the database from storage accounts to Azure SQL database.
+1. **Contoso-traders-infra-deployment.yml** will deploy the infrastructure into Azure which includes resource groups, resources, sets access policies to key vaults, and seeds the database from storage accounts into an Azure SQL database.
 
-    ![](media/ct3.png) 
+    ![](media/ct3.png) 
 
-1.	**contoso-traders-app-deployment.yml** deploys the application to Azure cloud. The application is configured to use the pre-deployed resources.
+1. **contoso-traders-app-deployment.yml** deploys the application to Azure cloud. The application is configured to use the pre-deployed resources.
 
-    ![](media/ct4.png) 
+    ![](media/ct4.png) 
 
-1.	**contoso-traders-load-testing.yml** configures the load testing on the application.
-  
-    ![](media/ct5.png)
+1. **contoso-traders-load-testing.yml** configures the load testing for the application.
+  
+    ![](media/ct5.png)
 
-1.	The **docs** folder contains the deployment instruction files which guides you to deploy the infrastructure and application.
+1. The **docs** folder contains the deployment instruction files, which guide you to deploy the infrastructure and application.
 
-    ![](media/ct6.png)
+    ![](media/ct6.png)
 
-1.	The **iac** folders contains the bicep templates which deploys the infrastructure needed for the application.
+1. The **iac** folders contain the BICEP templates, which deploy the infrastructure needed for the application.
 
-    ![](media/ct7.png) 
+    ![](media/ct7.png) 
 
-1.	The **src** folder contains all the source code files related to backend APIs, UI, and other parts of the application.
+1. The **src** folder contains all the source code files related to backend APIs, UI, and other parts of the application.
 
-    ![](media/ct8.png)  
+    ![](media/ct8.png)  
 
-1.	The **tests** folder contains the files related load testing.
+1. The **tests** folder contains the files related to load testing.
 
-    ![](media/ct9.png)   
+    ![](media/ct9.png)   
 
-1.	From the **code** tab, scroll down a little and you’ll find the **links (1)** to access the application. There are different links for test, production UI. You also access the **deployment instructions (2)** files using the links provided in Documentation paragraph.
+1. From the **code** tab, scroll down a little and you’ll find the **links (1)** to access the application. There are different links for test, production UI. You can also access the **deployment instructions (2)** files using the links provided in the documentation paragraph.
 
-    ![](media/ct10.png)  
+    ![](media/ct10.png)  
 
-1.	If you scroll a little bit more, you’ll visualize the entire application infrastructure diagram. The diagram explains how different Azure resources are integrated together and runs in synchronized manner to ensure the working of the application.
+1. If you scroll a little bit more, you’ll visualise the entire application infrastructure diagram. The diagram explains how different Azure resources are integrated together and runs in a synchronised manner to ensure the smooth operation of the application.
 
-    ![](media/ct11.png)  
+    ![](media/ct11.png)  
 
-1.	From the GitHub repository, navigate to **Actions (1)** tab. You’ll see the different **GitHub workflows (2)** in the Actions side blade.
+1. From the GitHub repository, navigate to **Actions (1)** tab. You’ll see the different **GitHub workflows (2)** in the Actions sidebar.
 
-    ![](media/ct12.png)  
+    ![](media/ct12.png)  
 
-1.	The **contoso-traders-infra-provisioning (1)** workflow is configured to deploy the bicep templates which will deploys the whole infrastructure to Azure. To run the workflow, click on **Run workflow (2)** and select **Run workflow (3)** to trigger the action.
+1. The **contoso-traders-infra-provisioning (1)** workflow is configured to deploy the BICEP templates which will deploy the whole infrastructure to Azure. To run the workflow, click on **Run workflow (2)** and select **Run workflow (3)** to trigger the action.
 
-    ![](media/ct13.png)  
+    ![](media/ct13.png)  
 
-1.	The **contoso-traders-app-deployment (1)** workflow is configured to deploy the application to Azure cloud. The workflow uses the resources which were deployed from contoso-traders-infra-provisioning workflow. To run the workflow, click on Run workflow (2) and select Run workflow (3) to trigger the action.
-  
-    ![](media/ct14.png)   
+1. The **contoso-traders-app-deployment (1)** workflow is configured to deploy the application to Azure cloud. The workflow uses the resources which were deployed from contoso-traders-infra-provisioning workflow. To run the workflow, click on **Run workflow (2)** and select **Run workflow (3)** to trigger the action.
+  
+    ![](media/ct14.png)   
 
-1.	The **contoso-traders-load-testing (1)** workflow will configure load testing on the application. To run the workflow, click on Run workflow (2) and select Run workflow (3) to trigger the action.
+1. The **contoso-traders-load-testing (1)** workflow will configure load testing on the application. To run the workflow, click on **Run workflow (2)** and select **Run workflow (3)** to trigger the action.
 
-    ![](media/ct14.png)
-   
-1. Navigate to **Settings (1)** tab, select **Code security and analysis (2)** tab. Here, **Dependency graph**, and **Dependabots** are enabled. 
+    ![](media/ct14.png)
+   
+1. Navigate to **Settings (1)** tab, select **Code security and analysis (2)** tab. Here, **Dependency graph**, and **Dependabots** are enabled. 
 
-   - **The dependency graph** includes all the dependencies of a repository that are detailed in the manifest and lock files, or their equivalent, for supported ecosystems, as well as any dependencies that are submitted using the Dependency submission API.
-   
-   - **Dependabot alerts** tell you that your code depends on a package that is insecure or malicious.   
+- **The dependency graph** contains all of a repository's dependencies as detailed in the manifest and lock files, or their equivalents, for supported ecosystems, as well as any dependencies submitted via the Dependency Submission API.
+   
+   - **Dependabot alerts** tell you that your code depends on a package that is insecure or malicious.   
 
-   - **Dependabot security updates** creates  alert for every vulnerable dependency identified in your full dependency graph. However, security updates are triggered only for dependencies that are specified in a manifest or lock file.
-   
-   ![](media/ct16.png)
-   
-1. Now, login into your Azure account where the contoso traders infrastructure is deployed. If the infrastructure is not deployed, please follow the **Deployment setup** documentation.
+   - **Dependabot security updates** creates  alert for every vulnerable dependency identified in your full dependency graph. However, security updates are triggered only for dependencies that are specified in a manifest or lock file.
+   
+   ![](media/ct16.png)
+   
+1. Now, sign in to your Azure account, where the contoso traders infrastructure is hosted. If the infrastructure is not deployed, please follow the **Deployment setup** documentation.
 
 1. From the Azure portal, search for **Microsoft Defender for cloud (1)** from the search and select **Microsoft Defender for cloud (2)**.
 
-   ![](media/ct17.png)
-   
-1. From Microsoft Defender for cloud page, select **Environment settings (1)** tab from the side blade and click on your **subcription (2)**      
-      
-   ![](media/ct18.png)
-   
-1. In the Settings | Defenders page, you'll be able to see all the resources for which Azure Defender plan is enabled. These are resources are protected and Azure Defender for cloud finds weak spots across your cloud configuration, helps strengthen the overall security posture of your environment.
-   
-   ![](media/ct19.png)   
-   
+   ![](media/ct17.png)
+   
+1. From Microsoft Defender for cloud page, select **Environment settings (1)** tab from the sidebar and click on your **subcription (2)**      
+      
+   ![](media/ct18.png)
+   
+1. In the Settings | Defenders page, you'll be able to see all the resources for which Azure Defender plan is enabled. These are resources which are protected by the Defender plan.
+ 
+   - Azure Defender for cloud finds weak spots across your cloud configuration, helps strengthen the overall security posture of your environment.
+   
+   ![](media/ct19.png)   
+   
 1. Navigate back to Microsoft Defender for cloud page, select **Recommendations** from the side blade.
 
-   ![](media/ct20.png)
-   
-1. In the Recommendations page, select the **All recommendations (1)** tab. You'll be able to see a bunch of recommendations based on the severity. Using the policies, Defender for Cloud periodically analyzes the compliance status of your resources to identify potential security misconfigurations and weaknesses. It then provides you with recommendations on how to remediate those issues. Recommendations are the result of assessing your resources against the relevant policies and identifying resources that aren't meeting your defined requirements.
+   ![](media/ct24.png)
+   
+1. In the Recommendations page, select the **All recommendations (1)** tab. You'll be able to see a bunch of recommendations based on severity. 
+ 
+   - Using the policies, Defender for Cloud periodically analyzes the compliance status of your resources to identify potential security misconfigurations and weaknesses. It then provides you with recommendations on how to remediate those issues. Recommendations are the result of assessing your resources against the relevant policies and identifying resources that aren't meeting your defined requirements.
 
-   ![](media/ct20.png)
-  
-1. In the Recommendations page, scroll down a bit and you'll be able to see a set of recommendations for the protected resources and click on any of the recommendation to see the details
+   ![](media/ct21.png)
+  
+1. In the Recommendations page, scroll down a bit and you'll be able to see a set of recommendations for the protected resources and click on any of the recommendation to see the details.
 
-   ![](media/ct21.png)
-  
-1. Here, you'll be able to see the **Description** of the recommendation, **Remidiation steps** using which you can fix the vulnerability , and **Affected resources**.
+   ![](media/ct22.png)
+  
+1. Here, you can see the **Description** of the recommendation, **Remidiation steps** using which you can fix the vulnerability , and **Affected resources**.
 
-   ![](media/ct21.png)  
+   ![](media/ct23.png) 
+   
+   
+## Summary
 
-    
+From this guide, you have understood and got an overview about the Contoso traders GitHub repostory and how you can implement the security between  
+
+    
