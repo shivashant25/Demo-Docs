@@ -1,16 +1,16 @@
-## DevSecOps: L100
+# DevSecOps: L100
 
-# Overview
+## Overview
 
 Contoso Traders are one of the leading E-Commerce platforms with wide range of electronic products like Desktops and Laptops, Mobile Phones, Gaming console accessories and Monitors. This includes a wide range of international brands like Microsoft Surface, XBOX, Samsung, ASUS, DELL etc. Contoso Traders Organization is using Microsoft 365 for their collaboration works internally.
 
 Contoso Traders has different departments like Marketing, Sales, Accounts, HR, IT. For internal communication they are using Microsoft Teams and Outlook. In Contoso Traders Organization, there are various functionalities with the Contoso Traders E-commerce platform like product approval, product price approval, Product price update approval etc. 
 
-# Lab Context
+## Lab Context
 
 In this lab, you will explore the Contoso traders code base present in a GitHub repository. The repository contains all the files related to the application’s UI, backend APIs, deployment files, GitHub workflows, and deployment guides.
 
-# Hands-On Guide
+## Hands-On Guide
 
 1.	Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. You’ll able to visualize multiple files and folders. 
 
