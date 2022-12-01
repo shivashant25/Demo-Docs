@@ -74,13 +74,13 @@ From this guide, you will explore the Contoso traders code base present in a Git
    
 1. Navigate to **Settings (1)** tab, select **Code security and analysis (2)** tab. Here, **Dependency graph**, and **Dependabots** are enabled. 
 
-   - **The dependency graph** contains all of a repository's dependencies as detailed in the manifest and lock files, or their equivalents, for supported ecosystems, as well as any dependencies submitted via the Dependency Submission API.
+    - **The dependency graph** contains all of a repository's dependencies as detailed in the manifest and lock files, or their equivalents, for supported ecosystems, as well as any dependencies submitted via the Dependency Submission API.
    
-   - **Dependabot alerts** tell you that your code depends on a package that is insecure or malicious.   
+    - **Dependabot alerts** tell you that your code depends on a package that is insecure or malicious.   
 
-   - **Dependabot security updates** creates  alert for every vulnerable dependency identified in your full dependency graph. However, security updates are triggered only for dependencies that are specified in a manifest or lock file.
+    - **Dependabot security updates** creates  alert for every vulnerable dependency identified in your full dependency graph. However, security updates are triggered only for dependencies that are specified in a manifest or lock file.
    
-   ![](media/ct16.png)
+    ![](media/ct16.png)
    
 1. Now, sign in to your Azure account, where the contoso traders infrastructure is hosted. If the infrastructure is not deployed, please follow the **Deployment setup** documentation.
 
@@ -100,21 +100,21 @@ From this guide, you will explore the Contoso traders code base present in a Git
    
 1. Navigate back to Microsoft Defender for cloud page, select **Recommendations** from the side blade.
 
-   ![](media/ct24.png)
+   ![](media/ct26.png)
    
 1. In the Recommendations page, select the **All recommendations (1)** tab. You'll be able to see a bunch of recommendations based on severity. 
  
-   - Using the policies, Defender for Cloud periodically analyzes the compliance status of your resources to identify potential security misconfigurations and weaknesses. It then provides you with recommendations on how to remediate those issues. Recommendations are the result of assessing your resources against the relevant policies and identifying resources that aren't meeting your defined requirements.
+    - Using the policies, Defender for Cloud periodically analyzes the compliance status of your resources to identify potential security misconfigurations and weaknesses. It then provides you with recommendations on how to remediate those issues. Recommendations are the result of assessing your resources against the relevant policies and identifying resources that aren't meeting your defined requirements.
 
-   ![](media/ct21.png)
+    ![](media/ct21.png)
   
 1. In the Recommendations page, scroll down a bit and you'll be able to see a set of recommendations for the protected resources and click on any of the recommendation to see the details.
 
-   ![](media/ct22.png)
+    ![](media/ct22.png)
   
 1. Here, you can see the **Description** of the recommendation, **Remidiation steps** using which you can fix the vulnerability , and **Affected resources**.
 
-   ![](media/ct23.png) 
+    ![](media/ct23.png) 
    
 ## Summary
 
