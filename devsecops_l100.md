@@ -70,4 +70,6 @@ In this lab, you will explore the Contoso traders code base present in a GitHub 
 
 1.	The **contoso-traders-load-testing (1)** workflow will configure load testing on the application. To run the workflow, click on Run workflow (2) and select Run workflow (3) to trigger the action.
 
-   ![](media/ct14.png)   
+   ![](media/ct14.png)
+   
+   
