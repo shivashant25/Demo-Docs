@@ -12,6 +12,11 @@ You will explore the Contoso traders code base present in a GitHub repository wh
 
 ## Steps
 
+1. Open browser, using a new tab navigate to `https://www.contosotraders.com/` **(1)**. If you see `Your connection isn't private` warning then click on **Advanced** an select **Continue to contosotraders.com (unsafe) (2)**
+
+   ![](media/ct27.png)
+      
+
 1. Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
 
    ![](media/ct1.png)
